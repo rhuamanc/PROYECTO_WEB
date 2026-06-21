@@ -102,8 +102,6 @@ header .logo img{
     color: var(--color-texto1);
     font-size: 13pt;
     text-align: left;
-    -moz-animation: background-color 0.5s ease, color 0.5s ease;;
-    -webkit-animation: background-color 0.5s ease, color 0.5s ease;;
     transition: background-color 0.5s ease, color 0.5s ease;
     
 }
@@ -164,18 +162,16 @@ main{
     margin: auto;
     display: flex;
     flex-direction: row;
-    /*background-color: aqua;*/
+    
 }
 
 section{
     width: 60%;
-    /*background-color: antiquewhite;*/
     padding: 50px;
 }
 
 aside{
     width: 40%;
-    /*background-color: blueviolet;*/
     display: flex;
     flex-direction: column;
     align-items: start;
