@@ -99,6 +99,9 @@ header .logo img{
     color: var(--color-texto1);
     font-size: 13pt;
     text-align: left;
+    -moz-animation: background-color 0.5s ease, color 0.5s ease;;
+    -webkit-animation: background-color 0.5s ease, color 0.5s ease;;
+    transition: background-color 0.5s ease, color 0.5s ease;
     
 }
 
