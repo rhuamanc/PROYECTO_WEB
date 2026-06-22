@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecService</title>
+    <link rel="stylesheet" href="../estilos/estilosVentas.css">
+    <link rel="stylesheet" href="../lightbox/css/lightbox.css">
+    <script src="../lightbox/js/lightbox-plus-jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="../paginas/reparacion_electrodomesticos.html"><img src="../images/logo.jpg" alt=""></a>
+        </div>
+        <div class="redes-header">
+            <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                <img src="../images/face-logo.png" alt="">
+
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="../images/instagram.png" alt="">
+            </a>
+            <a href="https://web.whatsapp.com/" target="_blank">
+                <img src="../images/wasap.png" alt="">
+            </a>
+        </div>
+        <div class="texto-header">
+            <p>555-555-555</p>
+            <p>Atención en Lima Metropolitana</p>
+        </div>
+    </header>
+    <nav>
+        <div class="navegacion">
+                <a href="reparacion_electrodomesticos.html">Inicio</a>
+                <a href="#">Conócenos</a>
+                <div class="submenu-reparar">
+                    <a href="#">Reparación</a>
+                    <div class="submenu-reparacion">
+                        <a href="#">Lavadoras</a>
+                        <a href="#">Secadoras</a>
+                        <a href="#">Cocinas</a>
+                        <a href="#">Refrigeradoras</a>
+                        <a href="#">Campanas extractoras</a>
+                        <a href="#">Aire acondicionado</a>
+                    </div>
+                </div>
+                <div class="submenu">
+                    <a href="#">Ventas</a>
+                    <div class="submenu-ventas">
+                        <a href="#">Productos nuevos</a>
+                        <a href="#">Productos de segunda</a>
+                    </div>
+                </div>
+                
+                <a href="#">Garantía</a>
+                <a href="#">Contáctanos</a>
+        </div>
+    </nav>
+    <section class="slider">
+    <img id="banner" src="../Images/Banner_1.webp" alt="Banner">
+
+    <div class="indicadores">
+        <span onclick="cambiarImagen(0)" class="activo"></span>
+        <span onclick="cambiarImagen(1)"></span>
+        <span onclick="cambiarImagen(2)"></span>
+        <span onclick="cambiarImagen(3)"></span>
+    </div>
+</section>
+
+<main>
+    <h2 class="productos">NUESTROS PRODUCTOS</h2>
+
+
+  <section class="categorias">
+
+    <div class="categoria">
+      <img src="../images/icons8-estufa-100.png">
+      <p>COCINAS</p>
+    </div>
+
+    <div class="categoria"> 
+      <img src="../images/REFRIS.png">
+      <p>REFRIGERADORAS</p>
+    </div>
+
+    <div class="categoria">
+      <img src="../images/icons8-congelador-64.png">
+      <p>CONGELADORAS</p>
+    </div>
+
+    <div class="categoria">
+      <img src="../images/icons8-lavadora-64.png">
+      <p>LAVADORAS</p>
+    </div>
+
+    <div class="categoria">
+      <img src="../images/icons8-aspiradora-64.png"S
+      <p>ASPIRADORAS</p>
+    </div>
+
+  </section>
+
+
+ <section class="productos">
+
+    <h2>ENCUENTRA EL REGALO PERFECTO</h2>
+    <a href="#">Ver más...</a>
+
+    <div class="galeria-productos">
+
+        <img src="../images/1.png" alt="Producto 1">
+        <img src="../images/2.png" alt="Producto 2">
+        <img src="../images/3.png" alt="Producto 3">
+        <img src="../images/4.png" alt="Producto 4">
+
+    </div>
+
+</section>
+
+
+<section class="modelos">
+
+    <h2>CONOZCA LOS MODELOS</h2>
+
+    <div class="contenedor-modelos">
+
+        <aside class="menu-modelos">
+            <ul>
+                <li onclick="mostrar('cocina', this)">COCINA</li>
+                <li onclick="mostrar('refrigeracion', this)">REFRIGERACIÓN</li>
+                <li onclick="mostrar('lavado', this)">LAVADO</li>
+                <li onclick="mostrar('limpieza', this)">LIMPIEZA</li>
+            </ul>
+        </aside>
+
+        <div id="cocina" class="grid-modelos">
+
+            <div class="modelo"><img src="../images/campana.webp"><p>CAMPANA</p></div>
+            <div class="modelo"><img src="../images/cocina_empotrable.jpeg"><p>COCINA EMPOTRABLE</p></div>
+            <div class="modelo"><img src="../images/microondas.webp"><p>MICROONDAS</p></div>
+            <div class="modelo"><img src="../images/BLANCO.png"></div>
+
+            <div class="modelo"><img src="../images/cocina_de_pie.webp"><p>COCINA DE PIE</p></div>
+            <div class="modelo"><img src="../images/horno_empotrable.webp"><p>HORNO EMPOTRABLE</p></div>
+            <div class="modelo"><img src="../images/lavavajilla.webp"><p>LAVAVAJILLA</p></div>
+            <div class="modelo"><img src="../images/BLANCO.png"></div>
+
+        </div>
+
+
+        <div id="refrigeracion" class="grid-modelos">
+
+            <div class="modelo"><img src="../images/Refrigeradora.webp"><p>REFRIGERADORA</p></div>
+            <div class="modelo"><img src="../images/refrigeradora_bottom_freezer.webp"><p>REFRIGERADORA BOTTOM FREEZER</p></div>
+            <div class="modelo"><img src="../images/refrigeradora_top_mount.webp"><p>REFRIGERADORA TOP MOUNT</p></div>
+            <div class="modelo"><img src="../images/cervecera.webp"><p>CERVECERA</p></div>
+
+            <div class="modelo"><img src="../images/regrigeradora_side_by_side.webp"><p>REFRIGERADORA SIDE BY SIDE</p></div>
+            <div class="modelo"><img src="../images/congeladoras.webp"><p>CONGELADORA</p></div>
+            <div class="modelo"><img src="../images/frigobar.webp"><p>FRIGOBAR</p></div>
+            <div class="modelo"><img src="../images/refrigeradora_french_door.jpg"><p>REFRIGERADORA FRENCH DOOR</p></div>
+
+        </div>
+
+
+        <div id="lavado" class="grid-modelos">
+
+            <div class="modelo"><img src="../images/lavadora.webp"><p>LAVADORA</p></div>
+            <div class="modelo"><img src="../images/lavadora_semiautomatica.jpeg"><p>LAVADORA SEMIAUTOMATICA</p></div>
+            <div class="modelo"><img src="../images/BLANCO.png"></div>
+            <div class="modelo"><img src="../images/BLANCO.png"></div>
+
+            <div class="modelo"><img src="../images/secadora.jpeg"><p>SECADORA</p></div>
+            <div class="modelo"><img src="../images/lavadora_secadora.webp"><p>LAVADORA SECADORA</p></div>
+            <div class="modelo"><img src="../images/BLANCO.png"></div>
+            <div class="modelo"><img src="../images/BLANCO.png"></div>
+
+        </div>
+
+
+        <div id="limpieza" class="grid-modelos">
+
+            <div class="modelo"><img src="../images/aspiradora_de_bolsa.webp"><p>ASPIRADORA DE BOLSA</p></div>
+            <div class="modelo"><img src="../images/aspiradora_robot.jpeg"><p>ROBOT ASPIRADOR</p></div>
+            <div class="modelo"><img src="../images/aspiradora_agua_polvo.jpeg"><p>ASPIRADORA AGUA POLVO</p></div>
+            <div class="modelo"><img src="../images/BLANCO.png"><p></p></div>
+
+            <div class="modelo"><img src="../images/aspiradora_de_tanque.webp"><p>ASPIRADOR DE TANQUE</p></div>
+            <div class="modelo"><img src="../images/aspiradora_inalambrica.webp"><p>ASPIRADORA INALAMBRICA</p></div>
+            <div class="modelo"><img src="../images/lustradora.webp"><p>LUSTRADORA</p></div>
+            <div class="modelo"><img src="../images/BLANCO.png"><p></p></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="beneficios">
+
+    <div class="beneficio">
+        <img src="../images/garantia.png" alt="Garantía">
+        <h3>GARANTÍA</h3>
+    </div>
+
+    <div class="beneficio">
+        <img src="../images/PAGO.png" alt="Paga en cuotas">
+        <h3>PAGA EN CUOTAS</h3>
+    </div>
+
+    <div class="beneficio">
+        <img src="../images/ENVIO.png" alt="Envío gratis">
+        <h3>ENVÍO GRATIS</h3>
+    </div>
+
+    <div class="beneficio">
+        <img src="../images/instalacion.png" alt="Instalación gratis">
+        <h3>INSTALACIÓN GRATIS</h3>
+    </div>
+
+    <div class="beneficio">
+        <img src="../images/VISITA.png" alt="Visita técnica">
+        <h3>VISITA TÉCNICA</h3>
+    </div>
+
+</section>
+
+
+<section class="redes-sociales">
+
+    <div class="redes-video">
+        <video controls>
+            <source src="../images/VIDEO.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+        </video>
+    </div>
+
+    <div class="redes-texto">
+
+        <h2>Conoce nuestras redes sociales</h2>
+
+        <p>
+            Puede hacer preguntas, obtener más información sobre los productos
+            en acción y sus funcionalidades, así como consultar consejos y más
+            información sobre TecService.
+        </p>
+
+    </div>
+
+</section>
+</main>
+
+    <footer>
+        <div class="logo-parrafo">
+            <a href="../paginas/reparacion_electrodomesticos.html">
+                <img src="../images/logo.jpg" alt="">
+            </a>
+            <p>Somos una empresa dedicada a la reparación, mantenimiento y venta de Electrodomésticos de línea blanca, brindamos nuestros servicios a todo Lima Metropolitana</p>
+        </div>
+        <div class="redes">
+            <p>Síguenos en nuestras redes sociales</p>
+            <div class="imagenes-redes">
+                <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                    <img src="../images/face-logo.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="../images/instagram.png" alt="">
+                </a>
+            </div>
+            <div class="correo">
+                <img src="../images/icono-email.png" alt="">
+                <a href="">atencionalcliente@gmail.com</a>
+            </div>
+            <div class="telefono">
+                <img src="../images/wasap.png" alt="">
+                <p>555-555-555 Atención en Lima y Callao</p>
+            </div>
+        </div>
+    </footer>
+
+<script src="../Scripts/banners.js"></script>
+<script src="../Scripts/modelos.js"></script>
+</body>
+</html>
