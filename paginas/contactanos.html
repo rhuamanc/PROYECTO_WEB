@@ -10,27 +10,56 @@
 <body>
     <div id="contenedor">
 
-        <header>
-            <img src="../images/logo.jpg" alt="Logo TecService">
+    <header>
+        <div class="logo">
+            <a href="../paginas/reparacion_electrodomesticos.html"><img src="../images/logo.jpg" alt=""></a>
+        </div>
+        <div class="redes-header">
+            <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                <img src="../images/face-logo.png" alt="">
 
-            <div class="red">
-                <img src="../images/contactanos/facebook.jpg" alt="Facebook">
-                <img src="../images/contactanos/Instagram.jpg" alt="Instagram">
-                <img src="../images/contactanos/Whatsapp.jpg" alt="WhatsApp">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="../images/instagram.png" alt="">
+            </a>
+            <a href="https://web.whatsapp.com/" target="_blank">
+                <img src="../images/wasap.png" alt="">
+            </a>
+        </div>
+        <div class="texto-header">
+            <p>555-555555</p>
+            <p>Atención en Lima Metropolitana</p>
+        </div>
+    </header>
 
-                <span>(01) 234 5678</span>
+    <nav>
+        <div class="navegacion">
+                <a href="../paginas/reparacion_electrodomesticos.html">Inicio</a>
+                <a href="#">Conócenos</a>
+                <div class="submenu-reparar">
+                    <a href="#">Reparación</a>
+                    <div class="submenu-reparacion">
+                        <a href="#">Lavadoras</a>
+                        <a href="#">Secadoras</a>
+                        <a href="#">Cocinas</a>
+                        <a href="#">Refrigeradoras</a>
+                        <a href="#">Campanas extractoras</a>
+                        <a href="#">Aire acondicionado</a>
+                    </div>
+                </div>
+                <div class="submenu">
+                    <a href="#">Ventas</a>
+                    <div class="submenu-ventas">
+                        <a href="#">Productos nuevos</a>
+                        <a href="#">Productos de segunda</a>
+                    </div>
+                </div>
+                
+                <a href="../paginas/pagina-garantia.html">Garantía</a>
+                <a href="../paginas/contactanos.html">Contáctanos</a>
+        </div>
+    </nav>
 
-                <strong>Atención en Lima Metropolitana</strong>
-            </div>
-        </header>
-
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Conócenos</a>
-            <a href="#">Reparación</a>
-            <a href="#">Venta</a>
-            <a href="#">Contáctanos</a>
-        </nav>
 
         <div id="contactanos">
             <img src="../images/contactanos/contactanos logo.png" alt="Contáctanos">
@@ -98,7 +127,13 @@
 
                         <div class="campo">
                             <span>☰</span>
-                            <input type="text" placeholder="Tipo de servicio">
+                            <select>
+                                <option value="">Seleccione un servicio</option>
+                                <option value="reparacion">Reparación</option>
+                                <option value="venta">Venta</option>
+                                <option value="garantia">Garantía</option>
+                                <option value="otros">Otros</option>
+                            </select>
                         </div>
 
                     </div>
@@ -140,7 +175,7 @@
                 <img src="../images/contactanos/Instagram.jpg" alt="Instagram">
                 <img src="../images/contactanos/Whatsapp.jpg" alt="WhatsApp">
 
-                
+
                 <span>(01) 234 5678</span>
 
                 <strong>Atención en Lima y Callao</strong>
